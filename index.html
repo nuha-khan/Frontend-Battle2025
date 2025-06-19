@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechNova</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Loader -->
+  <!-- Fancy Loader -->
+<div id="loader">
+  <div class="logo-spinner-container">
+    <div class="loader-spinner-glow"></div>
+    <h1 class="loader-brand">TechNova</h1>
+    <p class="loader-sub">Launching futuristic web experiences...</p>
+  </div>
+</div>
+>
+
+  <!-- Main Page -->
+  <div id="homepage" class="hidden">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">TechNova</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#growth">Growth</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </nav>
+
+    <!-- Background Cards -->
+    <div class="background-cards parallax-layer" data-parallax-speed="0.4">
+
+      <div class="card web-design-card">
+        <h3>Web Design</h3>
+        <p>Sleek & responsive</p>
+      </div>
+      <div class="card ai-card">
+        <h3>AI Integration</h3>
+        <p>Smarter automation</p>
+      </div>
+      <div class="card branding-card">
+        <h3>Branding</h3>
+        <p>Visual identity</p>
+      </div>
+      <div class="card seo-card">
+        <h3>SEO</h3>
+        <p>Top Google rankings</p>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <h1>Welcome to <span class="highlight">TechNova!</span></h1>
+      <p class="offers">
+        We offer 
+        <span class="offer" data-card="web-design-card">Web Designing</span>, 
+        <span class="offer" data-card="ai-card">AI Integration</span>, 
+        <span class="offer" data-card="branding-card">Branding</span> & 
+        <span class="offer" data-card="seo-card">SEO</span>
+      </p>
+    </section>
+
+    <!-- Separator / Spacer -->
+    <div class="separator-one"></div>
+
+    <section id="features" class="features-section">
+  <h2>Our Core Features</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <h3>Fast Delivery ⚡</h3>
+      <p>Projects delivered on time, every time.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Scalable Code 🧩</h3>
+      <p>Built with performance and growth in mind.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Creative UI ✨</h3>
+      <p>Interfaces that engage and impress.</p>
+    </div>
+    <div class="feature-card">
+      <h3>24/7 Support 💬</h3>
+      <p>We're always here for your needs.</p>
+    </div>
+  </div>
+</section>
+<div class="button-row">
+  <button class="ripple-button">Start a Project</button>
+</div>
+
+
+  <section id="growth" class="growth-section">
+  <h2>Our Growth Over Time</h2>
+  <canvas id="growthChart" width="600" height="400"></canvas>
+</section>
+
+    <!-- Separator / Spacer -->
+    <div class="separator-two"></div>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials-section">
+      <h2>What Our Clients Say</h2>
+      <div class="carousel-container">
+        <div class="carousel-track">
+          <div class="testimonial-card">
+            <p>"TechNova brought my vision to life like magic!"</p>
+            <span>— <span class="name">Sara A.</span></span>
+          </div>
+          <div class="testimonial-card">
+            <p>"Incredible branding and SEO boost. Highly recommend!"</p>
+            <span>— <span class="name">Rohan M.</span></span>
+          </div>
+          <div class="testimonial-card">
+            <p>"Loved the AI integration. My site is smarter than ever."</p>
+            <span>— <span class="name">Aanya P.</span></span>
+          </div>
+          <div class="testimonial-card">
+            <p>"Web design was sleek, modern, and fully responsive."</p>
+            <span>— <span class="name">Ishaan T.</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
